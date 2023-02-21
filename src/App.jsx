@@ -32,7 +32,7 @@ const App = () => {
         if (confirm) {
             setItems((oldItems) => {
                 return oldItems.filter((arrItem, index) => {
-                    return index != id;
+                    return index !== id;
                 })
             })
         }
